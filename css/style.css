@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+#characters-table .highlighted {
+    background-color: darkgreen;
+    color: white;
+}
+
+#characters-table th, #characters-table td {
+    border: 2.5px solid #ff0000;
+    padding: 13px;
+    text-align: left;
+}
+
+
+#characters-table th {
+    background-color: #c0b575;
+}
+
+
+.filter-buttons {
+    margin: 28px;
+}
+.search-container {
+    margin: 30px;
+}
+
+
+#characters-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-buttons button {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.filter-buttons button:hover {
+    background-color: #0b7dda;
+}
