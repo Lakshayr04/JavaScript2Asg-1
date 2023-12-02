@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+#registrationForm {
+    text-align: center;
+    background-color: #e0e0b3;  
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 3;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+}
+
+#submitButton {
+    background-color: #4caf50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitButton:disabled {
+    background-color: #aaaaaa;
+    cursor: not-allowed;
+}
+
+#welcomeMessage {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>
+        <!-- Lakshay Rajput -->
+    </h1>
+    <form id="registrationForm" onsubmit="submitForm(event)">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required/>
+   
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required/>
+        <small>At least 12 characters for password</small>
+
+        <br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword"required/>
+        <small>Passwords Confirm</small>
+
+        <br>
+
+        <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required/>
+        <label for="termsCheckbox">I accept the terms of service</label>
+
+        <br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="" disabled selected>Select your country</option>
+           
+        </select>
+
+        <br>
+
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
+
+    <div id="welcomeMessage" style="display: none;"></div>
+    
+    <script type="text/javascript" src="js/countries.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
